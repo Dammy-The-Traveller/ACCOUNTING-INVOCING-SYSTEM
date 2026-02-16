@@ -1,3 +1,4 @@
+<img width="1884" height="883" alt="image" src="https://github.com/user-attachments/assets/f7705273-5e1a-430a-8651-ed1b8709bba4" />
 # DAMMY TECH AIS - Accounting & Inventory System
 
 A comprehensive **Accounting and Inventory Management System** built with PHP. This application provides complete tools for managing your business finances, inventory, sales, and customer relationships with an intuitive web-based interface.
