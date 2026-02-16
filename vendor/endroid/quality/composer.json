@@ -1,0 +1,36 @@
+{
+    "name": "endroid/quality",
+    "description": "Endroid Quality",
+    "keywords": ["endroid", "quality","dev"],
+    "homepage": "https://github.com/endroid/quality",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeroen van den Enden",
+            "email": "info@endroid.nl"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "symfony/var-dumper": "^5.4||^6.4||^7.0"
+    },
+    "suggest": {
+        "roave/security-advisories": "Avoids installation of package versions with vulnerabilities"
+    },
+    "bin": [
+        "bin/code-quality",
+        "bin/check",
+        "bin/unit-test",
+        "bin/functional-test",
+        "bin/test"
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.x-dev"
+        }
+    }
+}

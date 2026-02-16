@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+set -e
+
+composer require php:"^8.2"
+
+shopt -s dotglob
+shopt -s globstar
+
+for source in `find **/*.default`; do
+    target=${source#vendor/endroid/quality/defaults/}
+    cp "$source" "${target%.*}"
+done
+
+rm -rf .travis.yml
+rm -rf phpunit.xml.dist
+
+composer config --no-plugins allow-plugins.endroid/installer true
+
+vendor/bin/code-quality
+vendor/bin/unit-test
+vendor/bin/functional-test

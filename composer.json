@@ -1,0 +1,39 @@
+{
+    "name": "pc/www",
+    "authors": [
+        {
+            "name": "Dammy The Traveller",
+            "email": "adebesindamilare39@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/collections": "^8.0",
+        "endroid/qr-code": "^4.0",
+        "symfony/var-dumper": "^5.4",
+        "setasign/fpdf": "^1.8",
+        "bacon/bacon-qr-code": "^2.0",
+        "vlucas/phpdotenv": "^5.6",
+        "phpmailer/phpmailer": "^6.5",
+        "stripe/stripe-php": "^17.4",
+        "dompdf/dompdf": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Core\\": "Core/",
+          "Http\\": "Http/"
+          
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.21",
+        "endroid/quality": "^1.5"
+    },
+    "config": {
+        "platform": {
+            "php": "8.3"
+        },
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
