@@ -4,7 +4,7 @@
 
 A comprehensive **Accounting and Inventory Management System** built with PHP. This application provides complete tools for managing your business finances, inventory, sales, and customer relationships with an intuitive web-based interface.
 
-## 📋 Features
+##  Features
 
 ### Core Modules
 - **Accounting Module**: Chart of accounts, account management, balance tracking
@@ -26,7 +26,7 @@ A comprehensive **Accounting and Inventory Management System** built with PHP. T
 - **Input Validation**: Built-in form validation system
 - **Error Handling**: Comprehensive error logging and debugging
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 - **Language**: PHP 8.3
 - **Framework**: Custom MVC Framework
@@ -40,7 +40,7 @@ A comprehensive **Accounting and Inventory Management System** built with PHP. T
   - QR Code generation (Endroid & Bacon)
   - Symfony VarDumper (Debugging)
 
-## 📦 Requirements
+##  Requirements
 
 Before installing, ensure you have:
 
@@ -50,7 +50,7 @@ Before installing, ensure you have:
 - **Web Server**: Apache with mod_rewrite enabled (or Nginx)
 - **WAMP/LAMP/LEMP Stack** (recommended for development)
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Step 1: Clone or Download the Repository
 
@@ -155,7 +155,7 @@ Navigate to `http://localhost/AIS` (or your configured URL) in your web browser.
 - Username: `admin`
 - Password: `password` (change after first login)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 AIS/
@@ -214,7 +214,7 @@ AIS/
 └── composer.json           # Project dependencies
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Database Configuration
 
@@ -261,7 +261,7 @@ SMTP_USERNAME=your-email@gmail.com
 SMTP_PASSWORD=your-app-password
 ```
 
-## 🔐 Security
+##  Security
 
 - **Authentication**: Secure login system with session management
 - **Authorization**: Role-based access control (RBAC)
@@ -270,7 +270,7 @@ SMTP_PASSWORD=your-app-password
 - **Environment Variables**: Sensitive data stored in `.env` (not committed to version control)
 - **SQL Injection Protection**: Parameterized queries with prepared statements
 
-## 🧪 Testing
+## Testing
 
 Run the test suite using PHPUnit:
 
@@ -280,7 +280,7 @@ vendor/bin/pest
 
 Tests are located in the `tests/` directory and configured in `phpunit.xml`.
 
-## 📝 Database Migrations
+##  Database Migrations
 
 ### Run All Migrations
 
@@ -295,7 +295,7 @@ php migrate.php
 
 Migrations are located in `database/migrations/`
 
-## 🌱 Database Seeding
+##  Database Seeding
 
 Seed sample data for development:
 
@@ -305,7 +305,7 @@ php seed.php
 
 Seeders are located in `database/seeders/`
 
-## 🚨 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -332,7 +332,7 @@ Seeders are located in `database/seeders/`
 - Check `AllowOverride All` in Apache configuration
 - Restart Apache/web server
 
-## 🐛 Debug Mode
+##  Debug Mode
 
 View detailed debug logs in the debug log file:
 
@@ -340,11 +340,11 @@ View detailed debug logs in the debug log file:
 tail storage/logs/debug_log.txt
 ```
 
-## 📚 API Endpoints
+##  API Endpoints
 
 The application includes API endpoints for external integrations located in `Http/Controllers/apis/`
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
@@ -356,12 +356,12 @@ The application includes API endpoints for external integrations located in `Htt
 
 This project is proprietary software. All rights reserved.
 
-## 👤 Author
+##  Author
 
 **Dammy The Traveller**
 - Email: adebesindamilare39@gmail.com
 
-## 🆘 Support
+##  Support
 
 For issues, bug reports, or questions:
 - Create an issue on GitHub
@@ -383,7 +383,7 @@ For issues, bug reports, or questions:
 - [ ] Configure payment gateways (if needed)
 - [ ] Configure email settings (if needed)
 
-## 🔄 Version History
+##  Version History
 
 - **v1.0.0** (August 2025) - Initial Release
   - Complete accounting module
